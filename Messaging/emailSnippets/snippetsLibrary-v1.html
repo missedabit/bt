@@ -408,10 +408,10 @@
 					.snippetTypes { padding:20px }
 					.snippetHeader { padding:10px 0 10px 20px; display:inline-block; border-bottom:1px solid #6400AA; width:97% }
 						.snippetHeader h2 { line-height:50px; display:inline }
-					.snippetItemList { margin:0; padding:0 20px 20px 0; width:200px }
-					.snippetItemList li { list-style-type:none; border:1px dashed #000; background-color:#f5f5f5; text-align:center; padding:10px }
-					.snippetItemList li.generic-shade { background-color:#ccc }
-						.snippetItemList li a { color:#6400AA }
+					.snippetItemList { margin:0; width:170px; padding:10px; border:1px solid #aaa; background-color:#eee; margin:0 20px 20px 0; }
+					.snippetItemList li { list-style-type:none; border:1px dashed #aaa; background-color:#f5f5f5; text-align:center; padding:10px }
+					.snippetItemList li.generic-shade { background-color:#ddd }
+						.snippetItemList li a { text-decoration:none; color:#6400AA }
 					pre { display:block; padding:9.5px; margin:0 0 10px; font-size:13px; line-height:1.42857143; color:#333; word-break:break-all; word-wrap:break-word; background-color:#f5f5f5; border-radius:4px }					
 					 pre code { padding: 0; font-size:inherit; color:inherit; white-space:pre-wrap; background-color:transparent; border-radius: 0; }
 					.precode { position:relative; left:0; top:0 }
@@ -444,16 +444,16 @@
 
 	<div style="vertical-align:top; display:inline-block">
 		<ul class="snippetItemList">
-			<li class="generic-shade"><a href="#headerSnippet">Header Snippets</a></li>
-			<li><a href="#heroSnippet">Hero Snippets</a></li>
-			<li><a href="#introSnippet">Intro Snippets</a></li>
-			<li><a href="#sectionSnippet">Section Snippets</a></li>
-			<li class="generic-shade"><a href="#footerSnippet">Footer Snippets</a></li>
+			<li class="generic-shade"><a href="#headerSnippet">Header snippets</a></li>
+			<li><a href="#heroSnippet">Hero snippets</a></li>
+			<li><a href="#introSnippet">Intro snippets</a></li>
+			<li><a href="#sectionSnippet">Section snippets</a></li>
+			<li class="generic-shade"><a href="#footerSnippet">Footer snippet</a></li>
 		</ul>
 	</div>
 
 	<div style="vertical-align:top; display:inline-block">
-		<a href="emailTemplate.zip" style="background-color:#6400aa; font-family: 'bt-regular-rg', Calibri , Arial, sans-serif; font-size:16px; text-decoration: none; line-height:40px; border-radius: 5px; color: #FFFFFF; display: block; border:solid 1px #6400AA; padding:0 10px 0 10px; display:inline-block"><img src="images/download.png" height="20px" align="middle" style="background-color:#fff; border-radius:4px; padding:5px; margin-bottom:5px; height:20px" />&nbsp;&nbsp;Download standard template and assets</a>
+		<a href="emailTemplate.zip" style="background-color:#6400aa; font-family: 'bt-regular-rg', Calibri , Arial, sans-serif; font-size:16px; text-decoration: none; line-height:40px; border-radius: 5px; color: #FFFFFF; display: block; border:solid 1px #6400AA; padding:0 10px 0 10px; display:inline-block"><img src="images/download.png" height="20px" align="middle" style="background-color:#fff; border-radius:4px; padding:5px; margin-bottom:5px; height:20px" />&nbsp;&nbsp;Email template, documentation and assets</a>
 	</div>
 
 	<br>
@@ -462,60 +462,57 @@
 
 
 
-<a class="snippetName" name="headerSnippet"><b>Header Snippets</b></a><br>
+<a class="snippetName" name="headerSnippet"><b>Header snippets</b></a><br>
 <a style="float:right; padding-right:50px" href="#topPage">Top &uarr;</a><br><br>
 
 
 <!-- Main Header Snippet starts here -->
 
-		<!-- header -->
-		<tr>
-				<td align="center">
-					<table id="header" role="header" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:600px;">
-						<tr>
-							<td valign="top" align="center">
+	<tr>
+		<td align="center">
+				<table id="header" role="header" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:600px;">
+					<tr>
+						<td valign="top" align="center">
+	
+							<table class="wrapper" role="presentation" style="min-width:600px; width: 600px; border-bottom: 1px solid #ffffff;" cellspacing="0" cellpadding="0"
+							width="600" bgcolor="#FFFFFF">
+								<tr>
+									<td>
+										<!-- logo-plain-nav -->
+										<table class="wrapper" role="presentation" style="padding: 0" bgcolor="#6400AA" cellspacing="0" cellpadding="0" width="100%" border="0">
+											
+											<tr>
+												<td class="Hpadding20" style="padding:20px;">
+													<table role="presentation" cellpadding="0" cellspacing="0" border="0" class="fluid">
+														<tr>
+															<td valign="middle">
+																<table role="presentation" cellpadding="0" cellspacing="0" border="0">
+																	<tr>
+																		<td width="64" valign="middle" height="30">
+																			<a href="https://business.bt.com/" style="border: none; color: #FFFFFF; font-family: 'bt-regular-bd', Calibri, Arial, sans-serif; font-size: 28px; text-decoration: none;" target="_blank">
+																				<img src="https://business.bt.com/content/dam/bt/business/campaign/email/patterns/bt-logo.png" alt="BT" width="64" height="30" style="display: block;" />
+																			</a>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+											
+										</table>
+										<!-- /logo-plain-nav -->
 		
-								<table class="wrapper" role="presentation" style="min-width:600px; width: 600px; border-bottom: 1px solid #ffffff;" cellspacing="0" cellpadding="0"
-								width="600" bgcolor="#FFFFFF">
-									<tr>
-										<td>
-											<!-- logo-plain-nav -->
-											<table class="wrapper" role="presentation" style="padding: 0" bgcolor="#6400AA" cellspacing="0" cellpadding="0" width="100%" border="0">
-												
-												<tr>
-													<td class="Hpadding20" style="padding:20px;">
-														<table role="presentation" cellpadding="0" cellspacing="0" border="0" class="fluid">
-															<tr>
-																<td valign="middle">
-																	<table role="presentation" cellpadding="0" cellspacing="0" border="0">
-																		<tr>
-																			<td width="64" valign="middle" height="30">
-																				<a href="https://business.bt.com/" style="border: none; color: #FFFFFF; font-family: 'bt-regular-bd', Calibri, Arial, sans-serif; font-size: 28px; text-decoration: none;" target="_blank">
-																					<img src="https://business.bt.com/content/dam/bt/business/campaign/email/patterns/bt-logo.png" alt="BT" width="64" height="30" style="display: block;" />
-																				</a>
-																			</td>
-																		</tr>
-																	</table>
-																</td>
-															</tr>
-														</table>
-													</td>
-												</tr>
-												
-											</table>
-											<!-- /logo-plain-nav -->
-			
-										</td>
-									</tr>
-								</table>
-		
-							</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-			<!-- /header -->
-
+									</td>
+								</tr>
+							</table>
+	
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
 
 
 			<br>
@@ -529,53 +526,51 @@
 			<pre>
 				<code>
 		
-				<div class="code-snippet" id="main-header-copy">&lt;!-- header --&gt;
-						&lt;tr&gt;
-								&lt;td align="center"&gt;
-									&lt;table id="header" role="header" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:600px;"&gt;
-										&lt;tr&gt;
-											&lt;td valign="top" align="center"&gt;
+				<div class="code-snippet" id="main-header-copy">	&lt;tr&gt;
+						&lt;td align="center"&gt;
+								&lt;table id="header" role="header" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:600px;"&gt;
+									&lt;tr&gt;
+										&lt;td valign="top" align="center"&gt;
+					
+											&lt;table class="wrapper" role="presentation" style="min-width:600px; width: 600px; border-bottom: 1px solid #ffffff;" cellspacing="0" cellpadding="0"
+											width="600" bgcolor="#FFFFFF"&gt;
+												&lt;tr&gt;
+													&lt;td&gt;
+														&lt;!-- logo-plain-nav --&gt;
+														&lt;table class="wrapper" role="presentation" style="padding: 0" bgcolor="#6400AA" cellspacing="0" cellpadding="0" width="100%" border="0"&gt;
+															
+															&lt;tr&gt;
+																&lt;td class="Hpadding20" style="padding:20px;"&gt;
+																	&lt;table role="presentation" cellpadding="0" cellspacing="0" border="0" class="fluid"&gt;
+																		&lt;tr&gt;
+																			&lt;td valign="middle"&gt;
+																				&lt;table role="presentation" cellpadding="0" cellspacing="0" border="0"&gt;
+																					&lt;tr&gt;
+																						&lt;td width="64" valign="middle" height="30"&gt;
+																							&lt;a href="https://business.bt.com/" style="border: none; color: #FFFFFF; font-family: 'bt-regular-bd', Calibri, Arial, sans-serif; font-size: 28px; text-decoration: none;" target="_blank"&gt;
+																								&lt;img src="https://business.bt.com/content/dam/bt/business/campaign/email/patterns/bt-logo.png" alt="BT" width="64" height="30" style="display: block;" /&gt;
+																							&lt;/a&gt;
+																						&lt;/td&gt;
+																					&lt;/tr&gt;
+																				&lt;/table&gt;
+																			&lt;/td&gt;
+																		&lt;/tr&gt;
+																	&lt;/table&gt;
+																&lt;/td&gt;
+															&lt;/tr&gt;
+															
+														&lt;/table&gt;
+														&lt;!-- /logo-plain-nav --&gt;
 						
-												&lt;table class="wrapper" role="presentation" style="min-width:600px; width: 600px; border-bottom: 1px solid #ffffff;" cellspacing="0" cellpadding="0"
-												width="600" bgcolor="#FFFFFF"&gt;
-													&lt;tr&gt;
-														&lt;td&gt;
-															&lt;!-- logo-plain-nav --&gt;
-															&lt;table class="wrapper" role="presentation" style="padding: 0" bgcolor="#6400AA" cellspacing="0" cellpadding="0" width="100%" border="0"&gt;
-																
-																&lt;tr&gt;
-																	&lt;td class="Hpadding20" style="padding:20px;"&gt;
-																		&lt;table role="presentation" cellpadding="0" cellspacing="0" border="0" class="fluid"&gt;
-																			&lt;tr&gt;
-																				&lt;td valign="middle"&gt;
-																					&lt;table role="presentation" cellpadding="0" cellspacing="0" border="0"&gt;
-																						&lt;tr&gt;
-																							&lt;td width="64" valign="middle" height="30"&gt;
-																								&lt;a href="https://business.bt.com/" style="border: none; color: #FFFFFF; font-family: 'bt-regular-bd', Calibri, Arial, sans-serif; font-size: 28px; text-decoration: none;" target="_blank"&gt;
-																									&lt;img src="https://business.bt.com/content/dam/bt/business/campaign/email/patterns/bt-logo.png" alt="BT" width="64" height="30" style="display: block;" /&gt;
-																								&lt;/a&gt;
-																							&lt;/td&gt;
-																						&lt;/tr&gt;
-																					&lt;/table&gt;
-																				&lt;/td&gt;
-																			&lt;/tr&gt;
-																		&lt;/table&gt;
-																	&lt;/td&gt;
-																&lt;/tr&gt;
-																
-															&lt;/table&gt;
-															&lt;!-- /logo-plain-nav --&gt;
-							
-														&lt;/td&gt;
-													&lt;/tr&gt;
-												&lt;/table&gt;
-						
-											&lt;/td&gt;
-										&lt;/tr&gt;
-									&lt;/table&gt;
-								&lt;/td&gt;
-							&lt;/tr&gt;
-							&lt;!-- /header --&gt;</div><a id="main-header-copy" href="#" class="copyButton" name="copy_pre"><img src="images/copy.png" width="20px" height="20px" style="vertical-align:middle"></a>
+													&lt;/td&gt;
+												&lt;/tr&gt;
+											&lt;/table&gt;
+					
+										&lt;/td&gt;
+									&lt;/tr&gt;
+								&lt;/table&gt;
+							&lt;/td&gt;
+						&lt;/tr&gt;</div><a id="main-header-copy" href="#" class="copyButton" name="copy_pre"><img src="images/copy.png" width="20px" height="20px" style="vertical-align:middle"></a>
 			
 				</code>
 			</pre>
@@ -734,7 +729,7 @@
 
 
 
-<a class="snippetName" name="heroSnippet"><b>Hero Snippets</b></a><br>
+<a class="snippetName" name="heroSnippet"><b>Hero snippets</b></a><br>
 <a style="float:right; padding-right:50px" href="#topPage">Top &uarr;</a><br><br>
 <!-- Hero Snippet starts here -->
 
@@ -875,7 +870,7 @@
 <!-- /Hero Snippet ends here -->
 
 <br><br><br>
-<a class="snippetName" name="introSnippet"><b>Intro Snippets</b></a><br>
+<a class="snippetName" name="introSnippet"><b>Intro snippets</b></a><br>
 <a style="float:right; padding-right:50px" href="#topPage">Top &uarr;</a><br><br>
 <!-- intro section starts here -->
 
@@ -955,7 +950,7 @@
 <!-- /intro section ends here -->
 
 <br><br><br>
-<a class="snippetName" name="sectionSnippet"><b>Section Snippets</b></a><br>
+<a class="snippetName" name="sectionSnippet"><b>Section snippets</b></a><br>
 <a style="float:right; padding-right:50px" href="#topPage">Top &uarr;</a><br><br>
 <!-- section: list items starts here -->
 
@@ -4370,7 +4365,7 @@
 <!-- /section: table with columns ends here -->
 
 <br><br><br>
-<a class="snippetName" name="footerSnippet"><b>Footer Snippet</b></a><br>
+<a class="snippetName" name="footerSnippet"><b>Footer snippet</b></a><br>
 <a style="float:right; padding-right:50px" href="#topPage">Top &uarr;</a><br><br>
 <!-- footer starts here -->
 
